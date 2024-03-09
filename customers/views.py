@@ -3,4 +3,4 @@ from django.http import HttpResponse
 
 
 def customers(request):
-    return HttpResponse('customers page')
+    return render(request, 'customers.html')
